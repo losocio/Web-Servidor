@@ -3,4 +3,3 @@ const emisorProductos = new EventEmitter();
 emisorProductos.on("eventName", () => {});
 //Podemos emitir el evento donde lo necesitemos con
 emisorProductos.emit("eventName");
-
